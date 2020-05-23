@@ -1,0 +1,18 @@
+directories:
+  output: dist_electron
+  buildResources: build
+  app: dist_electron/bundled
+files:
+  - filter:
+      - '**'
+extends: null
+asar: false
+win:
+  icon: ./public/app.ico
+mac:
+  icon: ./public/app.png
+publish:
+  - provider: generic
+    url: ''
+productName: xhw
+electronVersion: 6.1.10

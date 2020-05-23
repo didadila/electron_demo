@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' width="206" height="34">
+    <defs>
+        <linearGradient id="Gradient1" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="30%" stop-color="#19ccff5c"/>
+            <stop offset="50%" stop-color="#ffffff"/>
+            <stop offset="60%" stop-color="#19ccff5c"/>
+        </linearGradient>
+        <!-- <clipPath id="clip">
+            <path d="M 0 34 Q 0 28 6 28 L 164 28 Q 170 28 178 21 L 194 7 Q 202 0 206 0 L 1000 0 L 1000 1000 L 0 1000 Z"></path>
+        </clipPath> -->
+    </defs>
+    <path id="corner" d="M 0 34 Q 0 28 6 28 L 164 28 Q 170 28 178 21 L 194 7 Q 202 0 206 0 L 0 0 Z" fill="url(#Gradient1)"/>
+</svg>
